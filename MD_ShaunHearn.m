@@ -21,5 +21,34 @@ g = 9.80665;                        % metres (32.1740 ft) per s²
 am = 1.66053892e-27;
 
 
+% ~~~~~~~~~~~~~~~~~~~~~~~~~ Main Code ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ %
+
+%{
+    This code attempts to simulate the forces between particles near
+    eachother, and simulates this interaction as a spring
+
+    F = k(x-xo)^2
+%}
+
+k = 1;                              % Spring Constant
+x = zeros(1,10)                     % Generate a linear space
+xO = 1;                             % set spring length to 1
+
+% Populate the liner space with 5 paticles
+x(1) = 1;
+x(3) = 1;
+x(5) = 1;
+x(7) = 1;
+x(9) = 1;
+
+
+
+
+
+
+
+
+
+
 
 

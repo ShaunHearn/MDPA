@@ -15,9 +15,10 @@ PhiCutoff = 3 * AtomSpacing * 1.1;
 
 T = 30;
 
-AddHCPAtomicBlob(10, 0, 0, 0, 0, 0, 0, T, 0);
+%AddHCPAtomicBlob(10, 0, 0, 0, 0, 0, 0, T, 0);
 % vy0 = -sqrt(0.02*Ep/Mass1);
-% AddRectAtomicArray(4,4,0,12*AtomSpacing,0,vy0,0,T,1);
+%AddRectAtomicArray(4,4,0,12*AtomSpacing,0,vy0,0,T,1);
+AddCircAtomicArray(10,25, 0, 0, 0, 0, 0, T, 0);
 Ep = 0.5;
 AddParticleStream(13, 0.1, 8, -pi / 2, 1, Ep * C.q_0, 5);
 

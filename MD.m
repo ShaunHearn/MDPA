@@ -59,7 +59,7 @@ PlotPosOnly = 0;
 % InitVStream
 % InitHCP
 % InitHCPBlob
-% InitVStreamHCP
+ InitVStreamHCP
 % InitHCPMeltSim
 
 MaxX = max(x) * 1.5;
